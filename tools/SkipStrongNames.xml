@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assemblies defaultPublicKeyToken="b77a5c561934e089">
+
+  <!-- Production assemblies -->
+  <assembly name="PluralizationService" />
+
+  <!-- Unit test assemblies and helpers -->
+  <assembly name="PluralizationService.UnitTests" publicKeyToken="b03f5f7f11d50a3a" />
+
+</assemblies>

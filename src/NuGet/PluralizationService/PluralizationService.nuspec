@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>PluralizationService</id>
+    <version>1</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <projectUrl></projectUrl>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PluralizationService is the Service existing inside EntityFramework that was extracted for when you don't need the full blown EF.</description>
+    <summary>PluralizationService is the same service existing in your loved EF.</summary>
+    <language>en-US</language>
+  </metadata>
+</package>

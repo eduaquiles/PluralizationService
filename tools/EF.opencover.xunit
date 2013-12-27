@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xunit>
+  <assemblies>
+    <!-- NOTE: OpenCover requires shadow-copy to be false -->
+    <assembly filename="..\test\PluralizationService\UnitTests\bin\Release\PluralizationService.UnitTests.dll" shadow-copy="false" />
+    <assembly filename="..\test\PluralizationService\FunctionalTests\bin\Release\PluralizationService.FunctionalTests.dll" shadow-copy="false" />
+    <assembly filename="..\test\PluralizationService\FunctionalTests.Transitional\bin\Release\PluralizationService.FunctionalTests.Transitional.dll" shadow-copy="false" />
+    <assembly filename="..\test\PluralizationService\VBTests\bin\Release\PluralizationService.VBTests.dll" shadow-copy="false" />
+  </assemblies>
+</xunit>

@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{6A921FFC-887B-4406-A3E6-8E41817020B5}"
+	ProjectSection(SolutionItems) = preProject
+		EF.msbuild = EF.msbuild
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{99CFD9EF-C7D4-4E98-AD69-E56C99902B31}"
+	ProjectSection(SolutionItems) = preProject
+		src\NuGet\NuGet.proj = src\NuGet\NuGet.proj
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluralizationService", "PluralizationService", "{35E03DA3-8E9D-489C-B356-95E23847A575}"
+	ProjectSection(SolutionItems) = preProject
+		src\NuGet\PluralizationService\PluralizationService.nuspec = src\NuGet\PluralizationService\PluralizationService.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralizationService", "src\PluralizationService\PluralizationService.csproj", "{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{24A9C4D1-E189-4D3A-A2D7-36D3ED51D277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "test\PluralizationService\UnitTests\UnitTests.csproj", "{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugNet40|Any CPU = DebugNet40|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseNet40|Any CPU = ReleaseNet40|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.DebugNet40|Any CPU.ActiveCfg = DebugNet40|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.DebugNet40|Any CPU.Build.0 = DebugNet40|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.ReleaseNet40|Any CPU.ActiveCfg = ReleaseNet40|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.ReleaseNet40|Any CPU.Build.0 = ReleaseNet40|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.DebugNet40|Any CPU.ActiveCfg = DebugNet40|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.DebugNet40|Any CPU.Build.0 = DebugNet40|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.ReleaseNet40|Any CPU.ActiveCfg = ReleaseNet40|Any CPU
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5}.ReleaseNet40|Any CPU.Build.0 = ReleaseNet40|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35E03DA3-8E9D-489C-B356-95E23847A575} = {99CFD9EF-C7D4-4E98-AD69-E56C99902B31}
+		{E8E91C5F-E54C-41B1-AE1B-62E047BF49D5} = {24A9C4D1-E189-4D3A-A2D7-36D3ED51D277}
+	EndGlobalSection
+EndGlobal
